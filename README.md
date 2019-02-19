@@ -12,10 +12,18 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 ## How to code golf
 
 1. Link a local repository with this remote repository
-2. pull the whole directory
-3. create your own branch
-4. work on your own branch locally to test your code, commit and push your changes, ask questions online through the github interface.
-
+	+ `git init`
+	+ `git remote add origin https://github.com/hrvg/code-golfing`
+2. Pull the whole directory
+	+ `git pull origin master`
+3. Create your own branch
+	+ `git branch branch-name`
+4. Switch to your branch
+	+ `git checkout branch-name`
+4. Work on your own branch locally to test your code, commit and push your changes, ask questions online through the github interface.
+	+ `git add .`
+	+ `git commit -m "informative commit message"`
+	+ `git push origin `
 ## Code Golf 1: Tinkering with data
 
 The instructions are in the `CG1_tinkering_with_data.*` files that you can found in their respective programming language folder.
