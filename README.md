@@ -23,7 +23,7 @@ This project uses [R](https://www.r-project.org/) and [Python](https://www.pytho
 4. Work on your own branch locally to test your code, commit and push your changes, ask questions online through the github interface.
 	+ `git add .`
 	+ `git commit -m "informative commit message"`
-	+ `git push origin `
+	+ `git push origin branch-name`
 ## Code Golf 1: Tinkering with data
 
 The instructions are in the `CG1_tinkering_with_data.*` files that you can found in their respective programming language folder.
